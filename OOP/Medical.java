@@ -1,0 +1,48 @@
+class Medicine
+{
+	   String     mname;	
+       String     mcolor;    
+       String     mqty;
+	   double     mprice;
+       	   
+	   }      
+
+class Medical
+{
+      public static void main (String[]args){
+
+          //First medicine details
+		  Medicine m1=new Medicine();
+		   
+		   //Secand medicine details
+           Medicine m2=new Medicine();
+
+         //declaretion first details
+		  m1.mname        ="Paracetamol";
+          m1.mcolor       ="red";
+          m1.mqty         ="Fever";
+		  m1.mprice       =15;
+  
+        //declaretion sacand details
+		  m2.mname        ="Ibuprofen";
+          m2.mcolor       ="blue";
+          m2.mqty         ="pain killer";
+		  m2.mprice       =101;
+
+          //details of Paracetamol
+		  System.out.println("\nMedicine Paracetamol");
+		  System.out.println("m1.mname \t"+m1.mname);
+		  System.out.println("m1.mcolor \t"+m1.mcolor);
+		  System.out.println("m1.mqty \t"+m1.mqty);
+		  System.out.println("m1.price \t"+m1.mprice);
+         
+          //details of Ibuprofen
+          System.out.println("\nMedicine Ibuprofen ");
+		  System.out.println("m2.mname \t"+m2.mname);
+		  System.out.println("m2.mcolor \t"+m2.mcolor);
+		  System.out.println("m2.mqty \t"+m2.mqty);
+		  System.out.println("m2.price \t"+m2.mprice);
+
+       }
+  
+}

@@ -1,0 +1,15 @@
+class Binary
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(12);
+		System.out.println(012);
+		System.out.println(0xA1);
+	    System.out.println(0B1010);
+	    System.out.println(1010);
+		System.out.println(0101); 
+		System.out.println(0B1010L);
+
+	}
+}
+ 

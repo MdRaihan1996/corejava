@@ -1,0 +1,26 @@
+class A{
+   void m1(){
+	System.out.println("Father");
+   }
+}  
+class B extends A{
+	void m2(){
+		System.out.println("Rehan");
+	}
+}
+class C extends B{
+	void m3(){
+		System.out.println("XYZ");}
+	public static void main(String[] args){
+	
+	C x1=new C();
+	x1.m1();
+	x1.m2();
+	x1.m3();
+}
+
+   
+		
+	}
+
+

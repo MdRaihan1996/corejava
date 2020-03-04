@@ -1,0 +1,27 @@
+class specialcase 
+{
+	public static void main(String[] args) 
+	{
+     int il=98;
+	 //char ch3=il;
+	 char ch4=98;
+	 System.out.println(il);
+	 //System.out.println(ch3);
+	 System.out.println(ch4);
+      /*char ch1=98;
+	  char ch2=250;
+	  System.out.println(ch1);
+	  System.out.println(ch2);
+   /* long L2=(long)f1;
+	System.out.println(L2);
+	System.out.println(f1);
+    /*long L=10;
+	int i=L;
+	System.out.println(L);
+	System.out.println(i);
+	/*float f1=254.345f;
+	byte b1=(byte)f1; 
+	System.out.println(f1);
+	System.out.println(b1);*/ 
+	}
+}
